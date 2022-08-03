@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package calculadora;
+
+/**
+ *
+ * @author Edison Salazar
+ */
+public class Resta extends Operaciones {
+    public Resta(float numero1, float numero2){
+        super(numero1, numero2);
+        operacion="Resta";
+    }
+    public void Restar(){
+    resultado = numero1 - numero2;
+    }
+    
+}
